@@ -4,3 +4,5 @@ What began as a hackathon project at <b>FaithTech's HACKVAN 2026</b>, developed 
 has evolved into a long-term initiative with a mission to make transportation more accessible, reliable, and inclusive.
 
 Through Relay Collective, we're continuing to develop technology that connects community organizations, volunteer drivers, and the people who need them most.
+
+This platform has been developed by <b>Noah Hamm, Aditya Padmarajan and Gilbert Fung.</b>
