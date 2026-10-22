@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="190" viewBox="0 0 1280 190" role="img" aria-label="Stronger communities, built together.">
+  <style>
+    .edge { stroke: #C9D6D3; stroke-width: 2; stroke-dasharray: 1; animation: draw 1.4s ease both; }
+    .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 4s ease-in-out infinite; }
+    .rise { animation: rise 1s cubic-bezier(.2,.8,.2,1) .3s both; }
+    .sweep { animation: sweep 7s ease-in-out infinite; }
+    @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+    @keyframes rise { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes sweep { 0% { transform: translateX(-300px); } 60%, 100% { transform: translateX(1300px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="300" x2="980"><stop offset="0" stop-color="#0F766E"/><stop offset=".5" stop-color="#C2850F"/><stop offset="1" stop-color="#E4572E"/></linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <clipPath id="card"><rect width="1280" height="190" rx="24"/></clipPath>
+    <mask id="words"><text x="640" y="100" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff">Stronger communities, built together.</text></mask>
+  </defs>
+  <rect width="1280" height="190" rx="24" fill="#F7F4EE"/>
+  <g clip-path="url(#card)"><line class="edge" style="animation-delay:0.20s" x1="80" y1="70" x2="150" y2="130" pathLength="1"/><line class="edge" style="animation-delay:0.32s" x1="150" y1="130" x2="220" y2="80" pathLength="1"/><line class="edge" style="animation-delay:0.44s" x1="80" y1="70" x2="220" y2="80" pathLength="1"/><line class="edge" style="animation-delay:0.56s" x1="1060" y1="80" x2="1130" y2="130" pathLength="1"/><line class="edge" style="animation-delay:0.68s" x1="1130" y1="130" x2="1200" y2="70" pathLength="1"/><line class="edge" style="animation-delay:0.80s" x1="1060" y1="80" x2="1200" y2="70" pathLength="1"/><circle class="breathe" style="animation-delay:0.0s" cx="80" cy="70" r="5" fill="#0F766E"/><circle class="breathe" style="animation-delay:0.6s" cx="150" cy="130" r="4" fill="#C2850F"/><circle class="breathe" style="animation-delay:1.2s" cx="220" cy="80" r="6" fill="#E4572E"/><circle class="breathe" style="animation-delay:1.8s" cx="1060" cy="80" r="6" fill="#0F766E"/><circle class="breathe" style="animation-delay:2.4s" cx="1130" cy="130" r="4" fill="#E4572E"/><circle class="breathe" style="animation-delay:3.0s" cx="1200" cy="70" r="5" fill="#C2850F"/></g>
+  <g class="rise">
+    <rect width="1280" height="190" fill="url(#g)" mask="url(#words)"/>
+    <g mask="url(#words)"><rect class="sweep" x="0" y="0" width="240" height="190" fill="url(#sheen)"/></g>
+    <text x="640" y="142" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="3" fill="#5B6B73">RELAY COLLECTIVE</text>
+  </g>
+</svg>

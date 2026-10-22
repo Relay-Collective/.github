@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="Who we are">
+  <style>
+    .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+    .grow { transform-origin: 2px 0; animation: grow 1.3s cubic-bezier(.2,.8,.2,1) .5s both; }
+    .sweep { animation: sweep 6s ease-in-out 1.2s infinite; }
+    .glint { animation: glint 6s ease-in-out 1.6s infinite; }
+    .beat { transform-box: fill-box; transform-origin: center; animation: beat 2.4s ease-in-out infinite; }
+    @keyframes rise { from { transform: translateY(14px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes sweep { 0% { transform: translateX(0); } 45%, 100% { transform: translateX(1000px); } }
+    @keyframes glint { 0% { transform: translateX(0); } 70%, 100% { transform: translateX(1500px); } }
+    @keyframes beat { 0%, 100% { transform: scale(1); opacity: .55; } 50% { transform: scale(1.5); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="title" gradientUnits="userSpaceOnUse" x1="0" x2="420"><stop offset="0" stop-color="#E6EDF3"/><stop offset="1" stop-color="#E6EDF3"/></linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#F5B942"/></linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".5" stop-color="#2DD4BF" stop-opacity=".9"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glow" x1="0" x2="1"><stop offset="0" stop-color="#F5B942" stop-opacity="0"/><stop offset=".5" stop-color="#F5B942" stop-opacity=".8"/><stop offset="1" stop-color="#F5B942" stop-opacity="0"/></linearGradient>
+    <mask id="words"><text x="0" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#fff">Who we are</text></mask>
+    <clipPath id="track"><rect x="0" y="108" width="1280" height="3"/></clipPath>
+  </defs>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text class="rise" x="2" y="30" font-size="16" font-weight="700" letter-spacing="3"><tspan fill="#2DD4BF">01</tspan><tspan fill="#9AA7B1" dx="10">·</tspan><tspan fill="#9AA7B1" dx="10">ABOUT</tspan></text>
+    <g class="rise" style="animation-delay:.15s">
+      <rect width="760" height="120" fill="url(#title)" mask="url(#words)"/>
+      <g mask="url(#words)"><rect class="sweep" x="-220" y="0" width="200" height="120" fill="url(#sheen)"/></g>
+    </g>
+  </g>
+  <rect x="0" y="108" width="1280" height="3" rx="1.5" fill="#2E3D44"/>
+  <rect class="grow" x="0" y="108" width="180" height="3" rx="1.5" fill="url(#bar)"/>
+  <g clip-path="url(#track)"><rect class="glint" x="-220" y="108" width="200" height="3" fill="url(#glow)"/></g>
+  <g class="rise" style="animation-delay:.4s">
+    <circle class="beat" cx="1222" cy="70" r="5" fill="#2DD4BF"/>
+    <circle class="beat" style="animation-delay:.3s" cx="1246" cy="70" r="5" fill="#FF7A59"/>
+    <circle class="beat" style="animation-delay:.6s" cx="1270" cy="70" r="5" fill="#F5B942"/>
+  </g>
+</svg>

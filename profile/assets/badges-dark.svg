@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="160" viewBox="0 0 960 160" role="img" aria-label="Non-profit, social impact. Born at FaithTech HACKVAN 2026. In partnership with The Salvation Army – Belkin Communities of Hope.">
+  <style>
+    .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+    .shine { animation: shine 5s ease-in-out infinite; }
+    .halo { transform-box: fill-box; transform-origin: center; opacity: 0; animation: halo 2.6s ease-out infinite; }
+    @keyframes rise { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes shine { 0% { transform: translateX(0); } 40%, 100% { transform: translateX(900px); } }
+    @keyframes halo { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(3); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs><linearGradient id="sheenteal" x1="0" x2="1"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".5" stop-color="#2DD4BF" stop-opacity=".22"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></linearGradient><linearGradient id="sheenamber" x1="0" x2="1"><stop offset="0" stop-color="#F5B942" stop-opacity="0"/><stop offset=".5" stop-color="#F5B942" stop-opacity=".22"/><stop offset="1" stop-color="#F5B942" stop-opacity="0"/></linearGradient><linearGradient id="sheencoral" x1="0" x2="1"><stop offset="0" stop-color="#FF7A59" stop-opacity="0"/><stop offset=".5" stop-color="#FF7A59" stop-opacity=".22"/><stop offset="1" stop-color="#FF7A59" stop-opacity="0"/></linearGradient><clipPath id="c0"><rect x="142.0" y="14" width="286" height="56" rx="28.0"/></clipPath><clipPath id="c1"><rect x="448.0" y="14" width="370" height="56" rx="28.0"/></clipPath><clipPath id="c2"><rect x="148.0" y="90" width="664" height="56" rx="28.0"/></clipPath></defs>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <g class="rise" style="animation-delay:0.15s">
+    <rect x="142.0" y="14" width="286" height="56" rx="28.0" fill="#1B232D"/>
+    <rect x="142.0" y="14" width="286" height="56" rx="28.0" fill="#2DD4BF" fill-opacity=".09" stroke="#2DD4BF" stroke-opacity=".55" stroke-width="1.5"/>
+    <g clip-path="url(#c0)"><rect class="shine" style="animation-delay:1.4s" x="-18.0" y="14" width="160" height="56" fill="url(#sheenteal)"/></g>
+    <circle class="halo" style="animation-delay:1.15s" cx="172.0" cy="42.0" r="6" fill="none" stroke="#2DD4BF" stroke-width="2"/>
+    <circle cx="172.0" cy="42.0" r="6" fill="#2DD4BF"/>
+    <text x="192.0" y="47.0"><tspan font-size="12.5" font-weight="700" letter-spacing="2" fill="#2DD4BF">NON-PROFIT</tspan><tspan dx="12" font-size="17" font-weight="600" fill="#E6EDF3">Social impact</tspan></text>
+  </g><g class="rise" style="animation-delay:0.40s">
+    <rect x="448.0" y="14" width="370" height="56" rx="28.0" fill="#1B232D"/>
+    <rect x="448.0" y="14" width="370" height="56" rx="28.0" fill="#F5B942" fill-opacity=".09" stroke="#F5B942" stroke-opacity=".55" stroke-width="1.5"/>
+    <g clip-path="url(#c1)"><rect class="shine" style="animation-delay:2.3s" x="288.0" y="14" width="160" height="56" fill="url(#sheenamber)"/></g>
+    <circle class="halo" style="animation-delay:1.40s" cx="478.0" cy="42.0" r="6" fill="none" stroke="#F5B942" stroke-width="2"/>
+    <circle cx="478.0" cy="42.0" r="6" fill="#F5B942"/>
+    <text x="498.0" y="47.0"><tspan font-size="12.5" font-weight="700" letter-spacing="2" fill="#F5B942">BORN AT</tspan><tspan dx="12" font-size="17" font-weight="600" fill="#E6EDF3">FaithTech HACKVAN 2026</tspan></text>
+  </g><g class="rise" style="animation-delay:0.65s">
+    <rect x="148.0" y="90" width="664" height="56" rx="28.0" fill="#1B232D"/>
+    <rect x="148.0" y="90" width="664" height="56" rx="28.0" fill="#FF7A59" fill-opacity=".09" stroke="#FF7A59" stroke-opacity=".55" stroke-width="1.5"/>
+    <g clip-path="url(#c2)"><rect class="shine" style="animation-delay:3.2s" x="-12.0" y="90" width="160" height="56" fill="url(#sheencoral)"/></g>
+    <circle class="halo" style="animation-delay:1.65s" cx="178.0" cy="118.0" r="6" fill="none" stroke="#FF7A59" stroke-width="2"/>
+    <circle cx="178.0" cy="118.0" r="6" fill="#FF7A59"/>
+    <text x="198.0" y="123.0"><tspan font-size="12.5" font-weight="700" letter-spacing="2" fill="#FF7A59">IN PARTNERSHIP WITH</tspan><tspan dx="12" font-size="17" font-weight="600" fill="#E6EDF3">The Salvation Army – Belkin Communities of Hope</tspan></text>
+  </g>
+  </g>
+</svg>

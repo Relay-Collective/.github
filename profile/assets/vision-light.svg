@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Where we started: accessible, reliable transportation. Where we're going: a collaboration platform for the nonprofit sector.">
+  <style>
+    .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+    .pop { transform-box: fill-box; transform-origin: center; animation: pop .6s cubic-bezier(.3,1.6,.5,1) both; }
+    .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 4s ease-in-out infinite; }
+    .draw { stroke-dasharray: 1; animation: draw 1s ease both; }
+    .chev { animation: chev 2.2s ease-in-out infinite; }
+    .shine { animation: shine 6s ease-in-out 2.4s infinite; }
+    @keyframes rise { from { transform: translateY(18px); opacity: 0; } to { transform: none; opacity: 1; } }
+    @keyframes pop { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    @keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+    @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+    @keyframes chev { 0%, 100% { opacity: .2; } 40% { opacity: 1; } }
+    @keyframes shine { 0% { transform: translateX(0); } 40%, 100% { transform: translateX(760px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="arrow" gradientUnits="userSpaceOnUse" x1="600" x2="680"><stop offset="0" stop-color="#0F766E"/><stop offset="1" stop-color="#E4572E"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4572E"/><stop offset=".5" stop-color="#C2850F"/><stop offset="1" stop-color="#0F766E"/></linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#E4572E" stop-opacity="0"/><stop offset=".5" stop-color="#E4572E" stop-opacity=".12"/><stop offset="1" stop-color="#E4572E" stop-opacity="0"/></linearGradient>
+    <clipPath id="right"><rect x="720" y="40" width="500" height="280" rx="24"/></clipPath>
+  </defs>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g class="rise" style="animation-delay:.1s">
+      <rect x="60" y="40" width="500" height="280" rx="24" fill="#F7F4EE" stroke="#D9E2E0" stroke-width="1.5"/>
+      <g class="pop" style="animation-delay:.6s"><circle class="breathe" cx="130" cy="112" r="10" fill="#0F766E"/></g>
+      <circle cx="130" cy="112" r="22" fill="none" stroke="#0F766E" stroke-opacity=".35" stroke-width="2"/>
+      <text x="100" y="186" font-size="14" font-weight="700" letter-spacing="3" fill="#0F766E">WHERE WE STARTED</text>
+      <text x="100" y="226" font-size="27" font-weight="800" fill="#1C2B33">Accessible, reliable</text>
+      <text x="100" y="260" font-size="27" font-weight="800" fill="#1C2B33">transportation</text>
+      <text x="100" y="292" font-size="15" fill="#5B6B73">Our first focus, born at HACKVAN 2026</text>
+    </g>
+    <path class="chev" style="animation-delay:1.20s" d="M 612 168 l 12 12 l -12 12" fill="none" stroke="url(#arrow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="chev" style="animation-delay:1.45s" d="M 634 168 l 12 12 l -12 12" fill="none" stroke="url(#arrow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="chev" style="animation-delay:1.70s" d="M 656 168 l 12 12 l -12 12" fill="none" stroke="url(#arrow)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g class="rise" style="animation-delay:.9s">
+      <rect x="720" y="40" width="500" height="280" rx="24" fill="#F7F4EE"/>
+      <g clip-path="url(#right)"><rect class="shine" x="560" y="40" width="160" height="280" fill="url(#sheen)"/></g>
+      <rect x="720" y="40" width="500" height="280" rx="24" fill="none" stroke="url(#edge)" stroke-width="2"/>
+      <line class="draw" style="animation-delay:1.6s" x1="790" y1="112" x2="756" y2="90" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:1.7s" x1="790" y1="112" x2="824" y2="88" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:1.8s" x1="790" y1="112" x2="760" y2="138" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:1.9s" x1="790" y1="112" x2="822" y2="136" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:2.0s" x1="756" y1="90" x2="790" y2="68" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:2.1s" x1="824" y1="88" x2="790" y2="68" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:2.2s" x1="756" y1="90" x2="760" y2="138" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><line class="draw" style="animation-delay:2.3s" x1="824" y1="88" x2="822" y2="136" pathLength="1" stroke="#D9E2E0" stroke-width="2"/><g class="pop" style="animation-delay:1.30s"><circle class="breathe" style="animation-delay:0.0s" cx="790" cy="112" r="7" fill="#E4572E"/></g><g class="pop" style="animation-delay:1.38s"><circle class="breathe" style="animation-delay:0.5s" cx="756" cy="90" r="5" fill="#C2850F"/></g><g class="pop" style="animation-delay:1.46s"><circle class="breathe" style="animation-delay:1.0s" cx="824" cy="88" r="5" fill="#0F766E"/></g><g class="pop" style="animation-delay:1.54s"><circle class="breathe" style="animation-delay:1.5s" cx="760" cy="138" r="5" fill="#0F766E"/></g><g class="pop" style="animation-delay:1.62s"><circle class="breathe" style="animation-delay:2.0s" cx="822" cy="136" r="5" fill="#C2850F"/></g><g class="pop" style="animation-delay:1.70s"><circle class="breathe" style="animation-delay:2.5s" cx="790" cy="68" r="4" fill="#E4572E"/></g>
+      <text x="760" y="186" font-size="14" font-weight="700" letter-spacing="3" fill="#E4572E">WHERE WE'RE GOING</text>
+      <text x="760" y="226" font-size="27" font-weight="800" fill="#1C2B33">A collaboration platform</text>
+      <text x="760" y="260" font-size="27" font-weight="800" fill="#1C2B33">for the nonprofit sector</text>
+      <text x="760" y="292" font-size="15" fill="#5B6B73">Our long-term vision</text>
+    </g>
+  </g>
+</svg>
