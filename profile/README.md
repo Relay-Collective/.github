@@ -80,7 +80,6 @@ Relay Collective is designed and built by three developers who believe technolog
 <br>
 
 <div align="center">
-
 <a href="https://github.com/maxiomattic" title="Noah Hamm on GitHub"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/team-maxiomattic-dark.svg">
   <img alt="Noah Hamm (@maxiomattic)" src="./assets/team-maxiomattic-light.svg" width="250">
@@ -93,9 +92,6 @@ Relay Collective is designed and built by three developers who believe technolog
   <source media="(prefers-color-scheme: dark)" srcset="./assets/team-gilbertfung-dark.svg">
   <img alt="Gilbert Fung (@gilbertfung)" src="./assets/team-gilbertfung-light.svg" width="250">
 </picture></a>
-
-<br>
-
 </div>
 
 <br>
