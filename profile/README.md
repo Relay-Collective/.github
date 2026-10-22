@@ -19,7 +19,6 @@
 
 <br>
 
-[**Who we are**](#who-we-are) &nbsp;·&nbsp; [**Our story**](#our-story) &nbsp;·&nbsp; [**Our vision**](#our-vision) &nbsp;·&nbsp; [**The team**](#the-team)
 
 </div>
 
@@ -36,34 +35,6 @@
 
 We believe that when community organizations, volunteers, and the people they serve are connected, communities become stronger, more resilient, and more caring. Technology is how we build those connections.
 
-<table>
-  <tr>
-    <td width="33%" valign="top" align="center">
-      <br>
-      <h3>🤝</h3>
-      <b>Connect</b>
-      <br><br>
-      <sub>Bringing community organizations, volunteers, and the people they serve into one network.</sub>
-      <br><br>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <br>
-      <h3>🧱</h3>
-      <b>Remove barriers</b>
-      <br><br>
-      <sub>Finding the gaps that keep people from essential services, and building what's needed to close them.</sub>
-      <br><br>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <br>
-      <h3>🌱</h3>
-      <b>Strengthen communities</b>
-      <br><br>
-      <sub>Giving the organizations that do the work on the ground better tools to work together.</sub>
-      <br><br>
-    </td>
-  </tr>
-</table>
 
 <a id="our-story"></a>
 
